@@ -28,5 +28,5 @@ branches:
     - master
 env:
   global:
-    - GH_REF: github.com/kaizenwang/blog-hexo.git
+    - GH_REF: "github.com/kaizenwang/blog-hexo.git"
     - secure: "SHwXgsh3mHDq+3NhzT9vkR3yIZjEJufErNhsnFnzEKlxP25C8K0hlvpP4k1YP2P2f/oylptUSTXGQYQReo9uNRJbaTCc1Mt1jXxC3D4bSBUbLqxMI83LEt9FRKISY0Cp68g9dFHDHLAKIEB6VkO+qPvjd/war2SKW2T5p6qXUBic8r7T0Bzh1g9rhMTTYaIpmjCzrO0dtJWRmUNOJWYUbyiyxOE5ujnyCJRPpK9u29NqPc+1rTifZD8CSqJ794KBOtFHAIwmu7Kh5CJtO8NQgd9YCwaG+62Q3uZd1XXC3i8T65V4ZsIYgwXnoqo5UJVGT6jE2RLP2fHWUyKzBkVBp56RF08lorOZQk3i/0bCVm3s3pM9NbSDhos91BCKBTIhScBsLJNcZDIRyxwk2cJye3ciB//2Fm8iPFZvh/iyj4zrOs8Hqvj51XkFAGrmdrB4WqT9WG4uKyiRznRODh4zQFU2riemtlcMEZKSAlAMD8N0ZC1M4opL7ma7hsU5+aD3cqQX/4U8LSf4YmMm0OwBda6+43pjmh89FTfY0MKPd3fqF56U8hlxvGaL4iGX1l3op5Q3IvaUSRCV6JYyLbGZrgQxpN5FEPmBUNv+pr7n1AiZy71DIl155Pn2zWrRA48FgdiVinx+kCb43OF9LAlWcz2fGw9kuH/3EiR9nQlbHjk="
