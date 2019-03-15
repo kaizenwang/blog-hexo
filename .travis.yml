@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "11"
+
+install:
+  - npm install
+
+before_script:
+  - npm install -g hexo-cli
+
+script:
+  - hexo g
+
+after_script:
+  - cd public
+  - git init
+  - git config user.name "Kaizen"
+  - git config user.email "wangkai.kaizen@gmail.com"
+  - git add .
+  - git commit -m "Update blog"
+  - git push -f "" master:gh-pages
