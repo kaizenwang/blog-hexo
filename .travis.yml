@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "11"
+env:
+  - GH_REF: https://github.com/kaizenwang/blog-hexo.git
+  - secure: "e/07ZVCKbbIpWxk4WYr7z6PDFBPLRuwpMOps2OPWIAuwwJwQ6lhtUbJ8W8L+lp1VYI+otWNNdZtrN7Xjy+5nerixy76ga+ijWfoY+YbYAAzYZUVWB5oHZgs5kfX581IHY+n22QeB4FaeXQhDqMR1NVBGaADFqoJej4aHESJdbvF6R30HuQQIm4v0UJ7McI0f5LDdR5CjjNYtyTuvln4nPApI3E6FxV18K5KwMncq9AmriHwHBKaXoO0d3ScgIftPyc9dI5lpP06TRb1HwBXmGEJV2Jh88DT7eN75B7DYQo976EdRn7IFzHROG8u9mcKDsRdr0zY/L9IlUS3timC9mIKjhKsRUC/ILEvGJFQsUxu7nn5RPsIRdXF9XalJ72i7mHPCvylvNnjxJy8km/DX9HOXdHl3T4D3yD1Bq/TfB9FmIhG0uMI+W2zf6O7fNWlSxWrwyRP9FDqhOravkBJ7nDoUCq1k1QHEX5aeFXl9TVNpQ9pEfqN1zXOSZUNTKIO/8gJS+KjwKYSC05LEqSlq7KDUndN+KmgLUzUblOpbxhoEKowBSzD/XSHt/qn/y2wvcI+2NOCxeQMtB7MvNKe0gI4sBAS7uC7X0ljAQywboFaQoLRgAzp1FB1FEod1WJox5/Jbi+4mA1JZ/ZyxCbnVlnqf09pFSDJDrcM/Sknq7kM="
 
 install:
   - npm install
@@ -18,4 +21,4 @@ after_script:
   - git config user.email "wangkai.kaizen@gmail.com"
   - git add .
   - git commit -m "Update blog"
-  - git push -f "" master:gh-pages
+  - git push -f "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
