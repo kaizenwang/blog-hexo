@@ -977,7 +977,7 @@ hexo-front-matter@^0.2.2:
   resolved "http://registry.npm.taobao.org/hexo-front-matter/download/hexo-front-matter-0.2.3.tgz#c7ca8ef420ea36bd85e8408a2e8c9bf49efa605e"
   integrity sha1-x8qO9CDqNr2F6ECKLoyb9J76YF4=
   dependencies:
-    js-yaml "^3.6.1"
+    js-yaml "^3.13.0"
 
 hexo-fs@^0.2.0:
   version "0.2.3"
@@ -1112,7 +1112,7 @@ hexo@^3.8.0:
     hexo-i18n "^0.2.1"
     hexo-log "^0.2.0"
     hexo-util "^0.6.3"
-    js-yaml "^3.6.1"
+    js-yaml "^3.13.0"
     lodash "^4.17.5"
     minimatch "^3.0.4"
     moment "^2.19.4"
@@ -1391,9 +1391,9 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "http://registry.npm.taobao.org/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-js-yaml@^3.6.1:
-  version "3.12.2"
-  resolved "http://registry.npm.taobao.org/js-yaml/download/js-yaml-3.12.2.tgz#ef1d067c5a9d9cb65bd72f285b5d8105c77f14fc"
+js-yaml@^3.13.0:
+  version "3.13.0"
+  resolved "http://registry.npm.taobao.org/js-yaml/download/js-yaml-3.13.0.tgz#ef1d067c5a9d9cb65bd72f285b5d8105c77f14fc"
   integrity sha1-7x0GfFqdnLZb1y8oW12BBcd/FPw=
   dependencies:
     argparse "^1.0.7"
