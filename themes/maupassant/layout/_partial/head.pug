@@ -12,6 +12,7 @@ head
     link(rel='stylesheet', type='text/css', href='//lib.baomitu.com/pure/1.0.0/grids-responsive-min.css')
     link(rel='stylesheet', href='//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css')
     script(type='text/javascript', src='//lib.baomitu.com/jquery/3.3.1/jquery.min.js')
+    script(type='text/javascript', src='https://unpkg.com/darkreader')
     link(rel='icon', mask='',sizes='any', href=url_for('favicon.ico'))
     link(rel='Shortcut Icon', type='image/x-icon', href=url_for('favicon.ico'))
     link(rel='apple-touch-icon', href=url_for('apple-touch-icon.png'))
@@ -35,4 +36,10 @@ head
           var s = document.getElementsByTagName("script")[0];
           s.parentNode.insertBefore(hm, s);
           })();
+    script.
+      DarkReader.enable({
+        brightness: 100,
+        contrast: 90,
+        sepia: 10
+      });
 
